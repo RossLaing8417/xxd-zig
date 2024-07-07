@@ -1,0 +1,21 @@
+.{
+    .name = "xxd-zig",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.12.0",
+
+    .dependencies = .{
+        .@"zig-cli" = .{
+            .url = "https://github.com/RossLaing8417/zig-cli/archive/a8b219922fd9b700b011e50b62cd348b24bbc243.tar.gz",
+            .hash = "1220420659dff2f3f8b05aae28d39d66e4127c52644299504b8db91c36a501bb0fd3",
+            .lazy = false,
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
